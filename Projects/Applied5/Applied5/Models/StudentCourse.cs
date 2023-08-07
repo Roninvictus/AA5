@@ -17,3 +17,4 @@ namespace Applied5.Models
         public decimal Mark { get; set; }
     }
 }
+

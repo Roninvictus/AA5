@@ -53,11 +53,14 @@
 
 	<ItemGroup>
 	  <None Remove="Models\" />
+	  <None Remove="ViewModels\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
+	  <Folder Include="ViewModels\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
+	  <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
 	</ItemGroup>
 </Project>
